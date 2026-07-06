@@ -1,12 +1,10 @@
 # claude-skills
 
-A collection of my skills for Claude, packaged as plugins. The repo doubles as a **Claude plugin marketplace** — add it once and you can install and update the plugins from inside Claude.
+A collection of my skills for Claude, packaged as plugins and available as the **deworn-skills** Claude plugin marketplace.
 
 Everything here is provided **AS IS**, without warranty of any kind. These skills were built for my own setups — review them before use and test on your own data.
 
 ## Add as a marketplace
-
-Two names appear below and they are different things: `deworn/claude-skills` is the **repo address** (where the catalog is fetched from), while `deworn-skills` is the **marketplace name** defined inside the catalog — after adding, all install/update commands use the latter.
 
 **Claude Code (CLI):**
 
