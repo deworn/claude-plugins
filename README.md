@@ -19,8 +19,4 @@ Updates: `/plugin marketplace update deworn-skills` (with no pinned versions, ev
 
 ## Manual install (no marketplace)
 
-Skills are plain folders under `plugins/<plugin>/skills/`. Zip one skill folder (e.g. `loxone-config-xml/`) and upload the zip wherever your Claude client manages skills.
-
-## Plugins
-
-Each plugin lives in `plugins/` and has its own README with details.
+Skills are plain folders under `plugins/<plugin>/skills/`. Zip one skill folder (e.g. `loxone-config-xml/`) and upload the zip wherever your Claude client manages skills. Each plugin has its own README with details.
