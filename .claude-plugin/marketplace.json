@@ -1,0 +1,18 @@
+{
+  "name": "deworn-skills",
+  "owner": {
+    "name": "Petr Stepan",
+    "email": "deworn@gmail.com"
+  },
+  "description": "Personal collection of Claude skills, packaged as plugins",
+  "plugins": [
+    {
+      "name": "loxone-config",
+      "source": "./plugins/loxone-config",
+      "description": "Read, safely edit and document Loxone Miniserver configurations (.Loxone XML): a byte-safe parser/editor for the block-and-wire graph, plus a layered documentation methodology (use cases, non-default settings, rebuild-level wiring).",
+      "category": "home-automation",
+      "keywords": ["loxone", "miniserver", "smart-home", "home-automation", "xml"],
+      "license": "MIT"
+    }
+  ]
+}
