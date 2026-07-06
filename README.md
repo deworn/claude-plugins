@@ -6,6 +6,8 @@ Everything here is provided **AS IS**, without warranty of any kind. These skill
 
 ## Add as a marketplace
 
+Two names appear below and they are different things: `deworn/claude-skills` is the **repo address** (where the catalog is fetched from), while `deworn-skills` is the **marketplace name** defined inside the catalog — after adding, all install/update commands use the latter.
+
 **Claude Code (CLI):**
 
 ```shell
