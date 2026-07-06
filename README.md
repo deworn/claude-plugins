@@ -1,6 +1,6 @@
-# claude-skills
+# claude-plugins
 
-A collection of my skills for Claude, packaged as plugins and available as the **deworn-skills** Claude plugin marketplace.
+A collection of my skills for Claude, packaged as plugins and available as the **deworns-claude-plugins** Claude plugin marketplace.
 
 Everything here is provided **AS IS**, without warranty of any kind. These skills were built for my own setups — review them before use and test on your own data.
 
@@ -9,13 +9,13 @@ Everything here is provided **AS IS**, without warranty of any kind. These skill
 **Claude Code (CLI):**
 
 ```shell
-/plugin marketplace add deworn/claude-skills
-/plugin install loxone-config@deworn-skills
+/plugin marketplace add deworn/claude-plugins
+/plugin install loxone-config@deworns-claude-plugins
 ```
 
-Updates: `/plugin marketplace update deworn-skills` (with no pinned versions, every new commit counts as a new plugin version).
+Updates: `/plugin marketplace update deworns-claude-plugins` (with no pinned versions, every new commit counts as a new plugin version).
 
-**Claude Desktop (Cowork):** in plugin settings, add a marketplace and point it at this repo (`deworn/claude-skills`), then install the plugin from the list.
+**Claude Desktop (Cowork):** in plugin settings, add a marketplace and point it at this repo (`deworn/claude-plugins`), then install the plugin from the list.
 
 ## Manual install (no marketplace)
 
