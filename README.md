@@ -1,6 +1,6 @@
 # claude-plugins
 
-A collection of my skills for Claude, packaged as plugins and available as the **deworns-claude-plugins** Claude plugin marketplace.
+A collection of my skills and other stuff for Claude, packaged as plugins and available as the **deworns-claude-plugins** Claude plugin marketplace.
 
 Everything here is provided **AS IS**, without warranty of any kind. These skills were built for my own setups — review them before use and test on your own data.
 
