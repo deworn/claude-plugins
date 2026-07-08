@@ -1,6 +1,6 @@
 # Loxone Config skills
 
-Claude skills for working with [Loxone](https://www.loxone.com) Miniserver configurations. They are independent of any particular installation — no personal data inside. Each subfolder is one skill.
+Claude skills for working with [Loxone](https://www.loxone.com) Miniserver configurations. They are independent of any particular installation. Each subfolder is one skill.
 
 ## Skills
 
