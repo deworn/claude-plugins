@@ -26,7 +26,7 @@ claude plugin marketplace add deworn/claude-market --scope project
 claude plugin install loxone-config@deworns-claude-market --scope project
 ```
 
-Updates: `/plugin marketplace update deworns-claude-market` (with no pinned versions, every new commit counts as a new plugin version).
+Updates: `/plugin marketplace update deworns-claude-market` re-syncs the marketplace from this repo. Each plugin is versioned - see its `CHANGELOG.md` for what changed between versions.
 
 **Claude Desktop (Cowork):** in plugin settings, add a marketplace and point it at this repo (`deworn/claude-market`), then install the plugin from the list.
 

@@ -1,5 +1,6 @@
 {
   "name": "loxone-config",
+  "version": "1.2026.0",
   "description": "Read, safely edit and document Loxone Miniserver configurations (.Loxone XML) — two skills: loxone-config-xml (parser/editor for the block-and-wire graph) and loxone-documentation (layered documentation methodology).",
   "author": {
     "name": "Petr Stepan"
