@@ -19,11 +19,23 @@ Accepts the remote address including the custom port:
 claude mcp add --transport http loxone https://<your-id>.dyndns.loxonecloud.com:<port>/mcp
 ```
 
+By default this adds the server at **local** scope. Pick a scope with `-s`/`--scope`:
+
+- **local** (default) - only you, only the current project (`~/.claude.json`)
+- **user** - only you, across all your projects - handy for a home Miniserver you use everywhere
+- **project** - shared with anyone who checks out the repo (`.mcp.json`, committed) - avoid for a personal Miniserver: the committed URL exposes your remote address and port
+
+```bash
+claude mcp add --scope user --transport http loxone https://<your-id>.dyndns.loxonecloud.com:<port>/mcp
+```
+
 Then inside `claude` run `/mcp`, find the Loxone MCP and log in with the prepared user.
 
 ## Claude Desktop
 
 Claude Desktop connectors do **not** accept a custom port after the domain — plain HTTPS only. Workaround: a local MCP that acts as a bridge (`mcp-remote`); the session connects to the local MCP, which connects to the Loxone MCP — the remote address works there. This must be done by editing the config file, it cannot be clicked together in the UI:
+
+> **Node.js required.** The bridge runs through `npx`, which ships with Node.js. You probably already have it, but if the `npx` command isn't found, install Node first - macOS: `brew install node`; Windows: `winget install -e --id OpenJS.NodeJS`.
 
 1. Edit `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS).
 2. Add an `mcpServers` block at the same level as e.g. `"preferences"` (or extend an existing one). The key `"loxone"` is just a display name — pick anything.

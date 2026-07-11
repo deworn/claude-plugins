@@ -1,10 +1,10 @@
 {
-  "name": "deworns-claude-plugins",
+  "name": "deworns-claude-market",
   "owner": {
     "name": "Petr Stepan",
     "email": "deworn@gmail.com"
   },
-  "description": "Personal collection of Claude skills, packaged as plugins",
+  "description": "Personal collection of plugins, skills and other stuff for Claude.",
   "plugins": [
     {
       "name": "loxone-config",
